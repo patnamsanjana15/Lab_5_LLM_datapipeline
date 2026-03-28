@@ -32,8 +32,8 @@ Raw Text → Tokenize → Chunk into Blocks → Batch → Ready for LLM Training
 | Dataset | WikiText-2 | **AG News** |
 | Tokenizer | GPT-2 | **DistilGPT2** |
 | Block Size | 128 tokens | **256 tokens** |
-| Validation Set | ❌ None | **✅ 90/10 split** |
-| Data Visualization | ❌ None | **✅ Token length histogram** |
+| Validation Set |  None | **✅ 90/10 split** |
+| Data Visualization | None | **✅ Token length histogram** |
 
 ### Why These Changes?
 - **AG News** — Real-world news dataset, more varied vocabulary than Wikipedia
@@ -144,6 +144,3 @@ A token length distribution plot is also saved as `token_length_distribution.png
 
 ---
 
-## Author
-Lab Assignment 5 — MLOps Course  
-Modified from original lab by [raminmohammadi](https://github.com/raminmohammadi/MLOps)
