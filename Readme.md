@@ -93,7 +93,7 @@ pip install transformers datasets torch matplotlib
 ### Local (Jupyter Notebook)
 ```bash
 pip install transformers datasets torch matplotlib jupyter
-jupyter notebook Lab1.ipynb
+jupyter notebook Lab5.ipynb
 ```
 
 ---
